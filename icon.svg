@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="78 95 450 600">
+    <rect x="0" y="0" width="600" height="800" fill="#ffffff"/>
+    <!-- Block -->
+    <rect x="110" y="130" width="380" height="520" rx="24" fill="#ffffff" stroke="#000" stroke-width="14"/>
+    <!-- 5 Linien -->
+    <g stroke="#9a9a9a" stroke-width="6">
+        <line x1="160" y1="250" x2="440" y2="250"/>
+        <line x1="160" y1="320" x2="440" y2="320"/>
+        <line x1="160" y1="390" x2="440" y2="390"/>
+        <line x1="160" y1="460" x2="440" y2="460"/>
+        <line x1="160" y1="530" x2="340" y2="530"/>
+    </g>
+    <!-- Namen in Schreibschrift -->
+    <g font-family="Dancing Script, cursive" font-size="54" font-weight="bold" fill="#000">
+        <text x="168" y="240">Semih</text>
+        <text x="168" y="310">Mehmet</text>
+        <text x="168" y="380">Elif</text>
+        <text x="168" y="450">Zehra</text>
+    </g>
+    <!-- Spirale -->
+    <g fill="#ffffff" stroke="#000" stroke-width="10">
+        <circle cx="180" cy="130" r="22"/>
+        <circle cx="260" cy="130" r="22"/>
+        <circle cx="340" cy="130" r="22"/>
+        <circle cx="420" cy="130" r="22"/>
+    </g>
+    <!-- Stift -->
+    <g transform="rotate(-40 400 560)">
+        <rect x="370" y="420" width="60" height="230" fill="#000"/>
+        <rect x="370" y="420" width="60" height="30" fill="#6a6a6a"/>
+        <polygon points="370,650 430,650 400,710" fill="#ffffff" stroke="#000" stroke-width="8"/>
+        <polygon points="390,690 410,690 400,710" fill="#000"/>
+    </g>
+</svg>

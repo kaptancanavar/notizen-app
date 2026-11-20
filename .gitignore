@@ -1,0 +1,17 @@
+# Build-Artefakte
+build/
+*.o
+*.a
+*.d
+
+# Fertiges Binary
+/notizen
+
+# Editor / System
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+.cache/
+compile_commands.json
